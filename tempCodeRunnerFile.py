@@ -1,6 +1,7 @@
-a = input("Enter the first number: ")
-b = input("Enter the second number: ") 
+prices = [11.20, 35.40, 14.20]
+total = 0
 
-result = int(a) + int(b)
+for price in prices:
+    total += price
 
-print(result)
+print(total)

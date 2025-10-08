@@ -28,3 +28,25 @@ b = input("Enter the second number: ")
 result = int(a) + int(b)
 
 print(result)
+
+#while loop example
+name = ""
+count = 0
+while not name and count <5:
+    count +=1
+    name = input ("What is your name? ")
+    if name:
+        print(f"The is given: {name}")
+    else:
+        print("No name is given")
+
+
+# for loop example
+prices = [11.20, 35.40, 14.20]
+total = 0
+
+for price in prices:
+    total += price
+
+print(total)
+
